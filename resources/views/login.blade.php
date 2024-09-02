@@ -21,7 +21,7 @@
             </ul>          
         </div>
         @endif
-        <form action="{{url('/login')}}" method="POST">
+        <form action="{{url('/addlogin')}}" method="POST">
             @csrf
             <div class="mb-3">
                 <label for="email" class="form-label">Email</label>

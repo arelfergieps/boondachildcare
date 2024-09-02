@@ -17,16 +17,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::middleware(['guest'])->group(function(){
-Route::get('/', [SesiController::class, 'admin']);
-Route::post('/login', [SesiController::class, 'login']);
+Route::get('/login', [SesiController::class, 'Pagelogin']);
+Route::post('/addlogin', [SesiController::class, 'login']);
 });
 
 Route::get('/home',function(){
-    return redirect('/admin');
+    return redirect('/login');
 });
 Route::get('/admin' ,[ChildAdController::class, 'index']);
 Route::get('/logout' ,[SesiController::class, 'logout']);
-Route::get('/dashboard', [dashboardController::class, 'indexPage']);
+Route::get('/', [dashboardController::class, 'indexPage']);
 Route::get('/galleri', [dashboardController::class, 'galleri']);
 
 

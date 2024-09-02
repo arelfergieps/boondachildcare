@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Auth;
 
 class SesiController extends Controller
 {
-    public function admin()
+    public function Pagelogin()
     {
         return view('login');
     }
@@ -28,7 +28,7 @@ class SesiController extends Controller
         if(Auth::attempt($infologin)){
             return redirect('/admin');       
         }else{
-            return redirect('')->withErrors('Username dan Passwoes yang di masukkan tidak sesuai')->withInput();        }
+            return redirect('/login')->withErrors('Username dan Passwoes yang di masukkan tidak sesuai')->withInput();        }
     }
     function logout(){
         Auth::logout();
