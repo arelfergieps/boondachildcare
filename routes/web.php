@@ -24,9 +24,11 @@ Route::post('/addlogin', [SesiController::class, 'login']);
 Route::get('/home',function(){
     return redirect('/login');
 });
+
 Route::get('/admin' ,[ChildAdController::class, 'index']);
 Route::get('/logout' ,[SesiController::class, 'logout']);
 Route::get('/', [dashboardController::class, 'indexPage']);
 Route::get('/galleri', [dashboardController::class, 'galleri']);
+Route::get('/detailcard', [dashboardController::class, 'detailcard']);
 
 

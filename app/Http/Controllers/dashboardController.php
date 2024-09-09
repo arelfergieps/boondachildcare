@@ -16,4 +16,8 @@ class DashboardController extends Controller
     {
         return view('galleri'); // Menggunakan nama file view tanpa slashes
     }
+    public function detailcard()
+    {
+        return view('detailcard'); // Menggunakan nama file view tanpa slashes
+    }
 }

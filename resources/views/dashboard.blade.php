@@ -35,6 +35,9 @@
                         <a class="nav-link" href="#about">Tentang ChildCare</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#Boonda">Tentang Boonda</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#katalog">Katalog</a>
                     </li>                   
                     <li class="nav-item">
@@ -43,12 +46,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#galeri">Galeri</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Kontak</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="- btn btn-primary rounded ml-4" href="">Gabung Kami</a>
-                    </li>
+                    
                 </ul>
             </div>
         </div>          
@@ -72,9 +70,6 @@
                 membantu Anda menemukan dan mengasah kemampuan anak, 
                 mempersiapkannya untuk meraih kesuksesan di masa depan dengan metode yang efektif dan menyenangkan!
                 </p>
-
-           
-
         </div>              
         <div class="img-holder">
             <img src="assets/imgs/man.svg" alt="Man Image">
@@ -84,27 +79,63 @@
 <!-- End of Page Header -->
     
     <!-- About section -->
-    <section id="about" class="section ">
+    <section id="about" class="section">
         <div class="container text-center">
-                    
             <section>
-                <div style="display: flex; justify-content: center; align-items: center; min-height: 100vh; flex-direction: column;">
-                    <div class="pl-md-4 col-md-9">
-                        <h6 class="title">Boonda Childcare</h6>
+                <div style="display: flex; justify-content: center; align-items: center; min-height: 50vh; flex-direction: column;">
+                    <div class="pl-md-3 col-md-9 mt-2 ">
+                        <h6 class="title mb-3 ">Boonda Childcare</h6>
+                        <!-- Kartu gambar besar dengan tombol Play dan thumbnail YouTube -->
+                        <div class="video-card" style="position: relative; max-width: 700px; margin-top: 20px; border-radius: 15px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease, box-shadow 0.3s ease; margin: 0 auto;">
+                            <!-- Link ke video YouTube -->
+                            <a href="https://youtu.be/3c3MXmkNgxg?si=kprdMz0WjVfVvrt-" target="_blank" style="display: block;">
+                                <!-- Menggunakan thumbnail YouTube -->
+                                <img src="https://img.youtube.com/vi/3c3MXmkNgxg/maxresdefault.jpg" alt="Boonda Childcare Video" style="width: 100%; height: auto; display: block; margin: 0 auto;">
+                                <!-- Tombol Play di tengah -->
+                                <div class="play-button" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: rgba(0, 0, 0, 0.6); border-radius: 50%; padding: 15px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                        <path d="M11.596 8.697l-6-4.5A.5.5 0 0 0 5 4.5v7a.5.5 0 0 0 .796.4l6-4.5a.5.5 0 0 0 0-.8z"/>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                        
                         <p class="subtitle"></p>
-                        <p>Boonda Childcare adalah aplikasi digital inovatif yang 
-                            memungkinkan orang tua untuk mengakses berbagai layanan
-                             pengasuhan anak secara terintegrasi. Dengan Boonda, segala
-                              kebutuhan pengasuhan anak dapat dikelola dengan 
-                              mudah dalam satu aplikasi, yang dapat diakses kapan saja dan di mana saja. 
-                              Boonda tidak hanya sekadar aplikasi, tetapi juga merupakan ekosistem yang
-                               menghubungkan orang tua dengan berbagai mitra pengasuhan anak terpercaya..</p>
-                        <p>Setiap anak memiliki bakat dan karakteristik unik yang perlu dikembangkan. 
-                            ,Boonda ChildCare bersama Boonda.id menyediakan program yang dirancang khusus untuk
-                            membantu Anda menemukan dan mengasah kemampuan anak, 
-                            mempersiapkannya untuk meraih kesuksesan di masa depan dengan metode 
-                            yang efektif dan menyenangkan!</p>
+                        <p class="text-justify">Boonda Childcare adalah aplikasi digital inovatif yang memungkinkan orang tua untuk mengakses berbagai layanan pengasuhan anak secara terintegrasi. Dengan Boonda, segala kebutuhan pengasuhan anak dapat dikelola dengan mudah dalam satu aplikasi, yang dapat diakses kapan saja dan di mana saja. Boonda tidak hanya sekadar aplikasi, tetapi juga merupakan ekosistem yang menghubungkan orang tua dengan berbagai mitra pengasuhan anak terpercaya.</p>
+                        
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+    
+    
 
+
+
+
+            <section id="Boonda" class="section">
+                <div class="container">
+                    <div class="row align-items-center" style="min-height: 100vh;">
+                        <!-- Bagian gambar di sebelah kiri -->
+                        <div class="col-md-6 text-center">
+                            <img src="assets/imgs/blog-1.jpg" alt="Boonda Childcare" style="max-width: 100%; height: auto;">
+                        </div>
+                        
+                        <!-- Bagian teks di sebelah kanan -->
+                        <div class="col-md-6">
+                            <h6 class="title mb-6">Tentang Aplikasi Boonda</h6>
+                            
+                            <p> Aplikasi Super Parenting. Solusi Pengasuhan Anak yang Terintegrasi
+                                Boonda adalah platform yang memudahkan aktivitas pengasuhan anak untuk orang tua yang dapat diakses dalam satu genggaman dimana saja dan kapan saja</p>
+                            <p>Download Aplikasi Boonda:</p>
+                            
+                            <!-- Tombol di bawah teks -->
+                            <div class="mt-4">
+                                <a href="https://apps.apple.com/id/app/boonda/id6446410047" class="btn btn-primary rounded custom-btn">IOS</a>
+                                <a href="https://play.google.com/store/apps/details?id=com.gti.boonda" class="btn btn-primary rounded custom-btn">ANDROID</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -155,7 +186,7 @@
                                 <a href="javascript:void(0)"><i class="ti-comment"></i> 123</a>
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut ad vel dolorum, iusto velit, minima? Voluptas nemo harum impedit nisi.</p>
-                             <button class="btn btn-primary btn-sm rounded-pill flex-fill mx-1">Ikuti Kelas </button>
+                             <a class="btn btn-primary btn-sm rounded-pill flex-fill mx-1" href="/detailcard">Ikuti Kelas </a>
                         </div>
                     </div>
                 </div>
@@ -392,81 +423,130 @@
         </div>
     </section>
 
-
-
-    <!-- Contact Section -->
-    <section id="contact" class="position-relative section">
-        <div class="container text-center">
-            <h6 class="subtitle">Contact</h6>
-            <h6 class="section-title mb-4">Get In Touch With Me</h6>
-            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p>
-
-            <div class="contact text-left">
-                <div class="form">
-                    <h6 class="subtitle">Available 24/7</h6>
-                    <h6 class="section-title mb-4">Get In Touch</h6>
-                    <form>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea name="contact-message" id="" cols="30" rows="5" class="form-control" placeholder="Message"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-block rounded w-lg">Send Message</button>
-                    </form>
+    <!-- Section FAQ -->
+<section class="faq-sec" style="margin-bottom: 40px ;">
+    <div class="container">
+        <div class="row align-items-end">
+            <!-- Kolom untuk judul -->
+            <div class="col-lg-6 mb-5 mb-lg-0">
+                <div class="title-area">
+                    <h2 class="title mb-3">
+                        Daftar Pertanyaan Seputar, Boonda Childcare Fest 2023
+                    </h2>
+                    <p class="desc mb-5">
+                        Boonda Childcare Fest 2023 merupakan festival yang menyajikan tentang aktivitas pengasuhan anak yang dikolaborasikan menjadi satu yang berguna bagi seluruh ekosistem parenting.
+                    </p>
                 </div>
-                <div class="contact-infos">
-                    <div class="item">
-                        <i class="ti-location-pin"></i>
-                        <div class="">
-                            <h5>Location</h5>
-                            <p> 12345 Fake ST NoWhere AB Country</p>
-                        </div>                          
-                    </div>
-                    <div class="item">
-                        <i class="ti-mobile"></i>
-                        <div>
-                            <h5>Phone Number</h5>
-                            <p>(123) 456-7890</p>
-                        </div>                          
-                    </div>
-                    <div class="item">
-                        <i class="ti-email"></i>
-                        <div class="mb-0">
-                            <h5>Email Address</h5>
-                            <p>info@website.com</p>
-                        </div>
-                    </div>
-                </div>                  
             </div>
-        </div>  
-        <div id="map">
-            
-        </div>      
-    </section>
-    <!-- End of Contact Section -->
-
-    <!-- Page Footer -->
-    <footer class="page-footer">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-sm-6">
-                    <p>BoondaChildCare <a href="http://www.devcrud.com" target="_blank">.id</a></p>
-                </div>
-                <div class="col-sm-6">
-                    <div class="socials">
-                        <a class="social-item" href="javascript:void(0)"><i class="ti-facebook"></i></a>
-                        <a class="social-item" href="javascript:void(0)"><i class="ti-google"></i></a>
-                        <a class="social-item" href="javascript:void(0)"><i class="ti-github"></i></a>
-                        <a class="social-item" href="javascript:void(0)"><i class="ti-twitter"></i></a>
+            <!-- Kolom untuk pertanyaan dengan dropdown (accordion) -->
+            <div class="col-lg-6 mb-5 mb-lg-0">
+                <div class="faq-list">
+                    <h5 class="mb-4">Pertanyaan Umum:</h5>
+                    <div class="accordion" id="faqAccordion">
+                        <!-- Pertanyaan 1 -->
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        Apa itu Boonda Childcare Fest?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#faqAccordion">
+                                <div class="card-body">
+                                    Boonda Childcare Fest adalah acara tahunan yang mempertemukan orang tua, anak, dan mitra pengasuhan dalam ekosistem pengasuhan yang interaktif dan bermanfaat.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Pertanyaan 2 -->
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Siapa yang dapat menghadiri acara ini?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+                                <div class="card-body">
+                                    Acara ini terbuka untuk semua orang tua yang ingin mengeksplorasi cara terbaik dalam mengasuh dan mendidik anak mereka.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Pertanyaan 3 -->
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Kapan acara ini berlangsung?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
+                                <div class="card-body">
+                                    Acara ini akan diadakan pada bulan Desember 2023 dengan berbagai sesi menarik.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Pertanyaan 4 -->
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        Apakah ada biaya pendaftaran?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faqAccordion">
+                                <div class="card-body">
+                                    Ya, terdapat biaya pendaftaran yang mencakup semua sesi dan akses ke semua fasilitas acara.
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </footer> 
+    </div>
+</section>
+
+<!-- Page Footer -->
+<footer class="page-footer" style="background-color: #fdd945; padding: 40px 0; color: white;">
+    <div class="container">
+        <div class="row">
+            <!-- Teks dan Sosial Media -->
+            <div class="col-sm-6">
+                <div style="display: flex; flex-direction: column; align-items: flex-start;">
+                    <!-- Teks -->
+                    <div style="margin-bottom: 20px;">
+                        <p style="margin: 0; font-size: 18px; font-weight: 600;">BoondaChildCare</p>
+                        <p style="font-size: 14px; color: #fff;">© 2023 Semua Hak Cipta Dilindungi.</p>
+                    </div>
+                    <!-- Sosial Media -->
+                    <div class="socials">
+                        <a class="social-item" href="https://boonda.id/index" style="margin-right: 20px;">
+                            <i class="ti-google" style="font-size: 20px; color: #db4437;"></i>
+                        </a>
+                        <a class="social-item" href="https://www.instagram.com/boonda_id/" style="margin-right: 20px;">
+                            <i class="ti-instagram" style="font-size: 20px; color: #333;"></i>
+                        </a>
+                        <a class="social-item" href="https://x.com/boondaid/" style="margin-right: 20px;">
+                            <i class="ti-twitter" style="font-size: 20px; color: #1da1f2;"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Kosongkan kolom ini jika hanya ada satu kolom -->
+            <div class="col-sm-6"></div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- End of page footer -->
+
+<!-- CSS tambahan untuk interaksi hover dan animasi -->
+
     <!-- End of page footer -->
 	
 	<!-- core  -->
