@@ -6,11 +6,17 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
 class ChildAdController extends Controller
+
 {
-    function index()
+    // Fungsi untuk menampilkan halaman admin
+    public function index()
     {
-        echo"hallo, Selamat Datang";
-        echo"<h1>". Auth::user()->name ."<h1>";
-        echo"<a href='logout'>Logout>></a>";
+        // Mengambil user yang sedang login
+        $user = Auth::user();
+        
+        // Mengirim data user ke view
+        return view('admin', compact('user'));
     }
 }
+
+

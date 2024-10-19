@@ -20,4 +20,13 @@ class DashboardController extends Controller
     {
         return view('detailcard'); // Menggunakan nama file view tanpa slashes
     }
+    public function kolaborator()
+    {
+        return view('kolaborator'); // Menggunakan nama file view tanpa slashes
+    }
+    public function katalog()
+    {
+        return view('katalog'); // Menggunakan nama file view tanpa slashes
+    }
 }
+
